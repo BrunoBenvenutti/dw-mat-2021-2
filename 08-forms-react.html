@@ -35,7 +35,9 @@
             // nome -> é a variável de estado (somente leitura)
             // setState -> é uma função que deve ser usada para mudar
             //             o valor da variável de estado nome
-            let [nome, setNome] = React.useState()
+            // Dentro dos parênteses do useState(), DEVE ser informado
+            // um valor inicial para a variável de estado
+            let [nome, setNome] = React.useState('')
 
             function handleChange(event) {
                 // nome = event.target.value
