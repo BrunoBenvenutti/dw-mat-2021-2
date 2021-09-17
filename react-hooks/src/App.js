@@ -3,6 +3,8 @@ import Teste1 from './exercicios/Teste1';
 import Teste2 from './exercicios/Teste2';
 import Exercicio01 from './exercicios/01'
 import Exercicio02 from './exercicios/02';
+import Exercicio05 from './exercicios/05';
+import Exercicio06 from './exercicios/06';
 
 function App() {
   return (
@@ -32,6 +34,12 @@ function App() {
           <li>
             <Link to="ex02">Exercicio 02</Link>
           </li>
+          <li>
+            <Link to="ex05">Exercicio 05</Link>
+          </li>
+          <li>
+            <Link to="ex06">Exercicio 06</Link>
+          </li>
         </ul>
 
 
@@ -47,6 +55,12 @@ function App() {
           </Route>
           <Route path="/ex02">
             <Exercicio02 />
+          </Route>
+          <Route path="/ex05">
+            <Exercicio05 />
+          </Route>
+          <Route path="/ex06">
+            <Exercicio06 />
           </Route>
         </Switch>
 
